@@ -1,141 +1,130 @@
 *{
-   padding: 0;
+    padding: 0;
     margin: 0;
-    text-decoration: none;
     list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 .container{
-    max-width: 1920px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
 }
-.nav{
+header{
+    width: 100%;
+    height: 600px;
+    background: url(../img/1600x1200_tuerkische-halva.jpg) no-repeat center center / cover;
+    margin: auto;
+    max-width: 1800px;
+}
+.one{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100px;
+    width: 700px;
 }
-.img_phone{
-    width: 150px;
-    height: 150px;
-    padding: 50px;
-}
-.nav_ul{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 0 0 300px;
-    align-items: center;        
-}
-.li_a{
-    padding: 0 50px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 20px;
-}
-.li_a:hover{
-    padding: 20px 20px;
+.menu_h2{
+    opacity: 0.8;
     color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500px;
-    font-size: 20px;
-    background: yellow;
-    transition: 0.6s ease;
-}
-.img_phone_2{
-    width: 100%;
-    height: 700px;
-    opacity: 0.6;
-}
-.img_2{
-    width: 300px;
-    height: 300px;
-}
-.bloc{
     align-items: center;
-    box-shadow: 2px 3px 2px 2px black;
-    padding: 0 10px;
-    margin: 0 50px;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
+    padding: 100PX 0 0 0;
+    font-size: 60px;
 }
-.bloc_h2{
+.img_h5{
     width: 300px;
-    height:30px;
+    height: 500px;
     display: flex;
-    padding: 0; 
-    max-width: 600px;
-    max-height: 600px;
+    justify-content: center;
+    padding: 90px 10px 10px 0;
 }
 .box{
     display: flex;
-    justify-content: center;    
+    align-items:center ;
+    margin: 30px 60px 60px 30px;
+}
+.img_h5{
+    text-align: center;
+}
+ 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.two1{
+    padding: 30px 30px;
+    
 }
 .one{
-width: 800px;
-height: 500px;
-align-items: center;
-}
-.bloc_btn{
-    padding:10px 50px;
-    background:rgb(255, 238, 0);
-    border: none;
-    margin: 30px 0;
-}
-.block{
     display: flex;
-    justify-content: space-around ;
-    justify-items: center; 
-    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+    background: rgb(147, 198, 247);;
+    padding: 60px 80px 0 200px ;
+    width: 100%;
+    height: 600px;
 }
-.one{
-    width: 700px;
-    height: 100px;
+.one1 img{
+    width: 250px;
+    height: 250px;
 }
-.logo{
-    width: 800px;
-    height: 400px;
-    margin: 0 0;
+.block_p{
+    margin: 30px 25px 20px 5px;
+    width: 310px;
 }
-.blue{
+.one_h5{
+    padding: 15px 0;
+}
+.gut_p{
+    color:  rgb(155, 207, 255);;
+    padding: 0 150px 15px;
+}
+.booc_h2{
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+    color:  rgb(174, 215, 252);;;
+}
+ 
+.booc{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
-.grenn{
+.gut{
+    padding: 20px 20px 20px 20px ;
+
+}
+.dark{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-align: center;
-   background-color: rgb(255, 204, 0);
-   text-decoration: none;
-   margin: 10px 10px 10px ;
+    padding: 20px 0;
+    background: rgb(156, 203, 248);;
 }
-.three{
-    margin: 100px 0 ;
-    text-align: center;    
+.dark_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.three_p{
-    font-size: 20px;
-    font-weight: 200px;
-    padding: 20px 20px;
-}
-.btn_color{
-    background-color: yellow;
-    width: 100px;
-    height: 20px;
-}
-.h2_phone{
-    padding: 15px;
-}
-.btn_color{
-    margin: 15px;
-    width: 150px;
-    height: 40px;
-}
+.dark_ul a{
+    padding: 15px 15px;
+    color: rgb(0, 0, 0);;
 
-
-
+}
+.btn{
+    border: none;
+    background: blue;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+.btn a{
+    color: #fff;
+}
